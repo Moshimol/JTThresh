@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'JTThresh_Example' do
+  pod 'JTThresh', :path => '../'
+
+  target 'JTThresh_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
