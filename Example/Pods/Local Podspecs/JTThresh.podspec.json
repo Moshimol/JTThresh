@@ -1,0 +1,22 @@
+{
+  "name": "JTThresh",
+  "version": "0.1.0",
+  "summary": "A short description of JTThresh.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/17779725/JTThresh",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "17779725": "lushitong@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/17779725/JTThresh.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "JTThresh/Classes/**/*"
+}

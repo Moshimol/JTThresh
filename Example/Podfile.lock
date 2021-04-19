@@ -1,0 +1,16 @@
+PODS:
+  - JTThresh (0.1.0)
+
+DEPENDENCIES:
+  - JTThresh (from `../`)
+
+EXTERNAL SOURCES:
+  JTThresh:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JTThresh: 3c49b5d7a212b95e8a6a594e24f38d56c4f280d4
+
+PODFILE CHECKSUM: d49c534fa37c25c7cecf0dcd819082fcff7a7fb7
+
+COCOAPODS: 1.10.0

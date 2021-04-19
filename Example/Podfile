@@ -7,7 +7,5 @@ target 'JTThresh_Example' do
 
   target 'JTThresh_Tests' do
     inherit! :search_paths
-
-    pod 'FBSnapshotTestCase'
   end
 end

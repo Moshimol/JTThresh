@@ -1,0 +1,6 @@
+framework module JTThresh {
+  umbrella header "JTThresh-umbrella.h"
+
+  export *
+  module * { export * }
+}
