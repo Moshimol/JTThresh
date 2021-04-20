@@ -8,9 +8,6 @@
 #ifndef UIThreshMacro_h
 #define UIThreshMacro_h
 
-
-/**通过对象名称字符串创建该对象*/
-#define Thresh(source)  [UIThresh makeThreshGenerator:(source)]
-
+// 字符串的定义
 
 #endif /* UIThreshMacro_h */

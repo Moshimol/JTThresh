@@ -11,6 +11,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+#define Thresh(source)  [UIThresh makeThreshGenerator:(source)]
+
 @interface UIThresh : NSObject
 
 - (id)mas_thresh:(void(^)(UIThresh *thresh))thresh;
