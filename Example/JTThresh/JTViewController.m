@@ -7,6 +7,7 @@
 //
 
 #import "JTViewController.h"
+#import <JTThresh/JTThresh.h>
 
 @interface JTViewController ()
 
@@ -18,6 +19,11 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [[UIThresh makeThreshGenerator:@"UILabel"] mas_thresh:^(UIThresh * _Nonnull thresh) {
+        thresh.backGroundColor([UIColor redColor]);
+        thresh.frame(CGRectMake(0.0, 0.0, 100.0, 100.0));
+        thresh.parent_view(self.view);
+    }];
 }
 
 - (void)didReceiveMemoryWarning
