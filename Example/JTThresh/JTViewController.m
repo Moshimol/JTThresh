@@ -15,13 +15,16 @@
 
 @implementation JTViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	/*
+     1、先去处理 如何生成控件
+     2、根绝客户端返回的JSON列表去处理 for循环去处理  然后处理相关问题
+     3、
+     */
     [[UIThresh makeThreshGenerator:@"UILabel"] mas_thresh:^(UIThresh * _Nonnull thresh) {
         thresh.backGroundColor([UIColor redColor]);
-        thresh.frame(CGRectMake(0.0, 0.0, 100.0, 100.0));
+        thresh.frame(CGRectMake(50.0, 20.0, 100.0, 100.0));
         thresh.parent_view(self.view);
     }];
 }

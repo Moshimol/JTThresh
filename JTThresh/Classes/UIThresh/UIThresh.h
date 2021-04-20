@@ -40,7 +40,7 @@ NS_ASSUME_NONNULL_BEGIN
 // 设置tag值
 @property (nonatomic, copy, readonly) UIThresh *(^tag)(NSInteger tag);
 
-// 给View 添加时间
+// 给View 添加事件
 @property (nonatomic, copy, readonly) UIThresh *(^tapGestureRecognizer)(ThreshViewTapClick tapClick);
 
 // 设置字体

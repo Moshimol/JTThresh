@@ -13,7 +13,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, copy, readonly) UIThresh *(^delegate)(id<UITextViewDelegate> delegate);
 @property (nonatomic, copy, readonly) UIThresh *(^text)(NSString * text);
-@property (nonatomic, copy, readonly) UIThresh *(^font)(UIFont * font);
 @property (nonatomic, copy, readonly) UIThresh *(^textColor)(UIColor * textColor);
 @property (nonatomic, copy, readonly) UIThresh *(^textAlignment)(NSTextAlignment textAlignment);
 

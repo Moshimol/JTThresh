@@ -12,9 +12,12 @@
 
 #import "JTThresh.h"
 #import "UIThresh+UIButton.h"
+#import "UIThresh+UICollectionView.h"
 #import "UIThresh+UIImageView.h"
 #import "UIThresh+UILabel.h"
+#import "UIThresh+UITableView.h"
 #import "UIThresh+UITextField.h"
+#import "UIThresh+UITextView.h"
 #import "UIThresh.h"
 #import "UIThreshMacro.h"
 #import "UIThreshMacro.h"

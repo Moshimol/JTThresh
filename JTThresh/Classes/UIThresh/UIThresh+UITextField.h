@@ -24,7 +24,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy, readonly) UIThresh *(^placeholder)(NSString *placeholder);
 
 // 富文本的placeholder
-@property (nonatomic, copy, readonly) UIThresh *(^attributedPlaceholder)(NSString *attributedPlaceholder);
+@property (nonatomic, copy, readonly) UIThresh *(^attributedPlaceholder)(NSAttributedString *attributedPlaceholder);
 
 // 设置代理
 @property (nonatomic, copy, readonly) UIThresh *(^delegate)(id<UITextFieldDelegate> delegate);

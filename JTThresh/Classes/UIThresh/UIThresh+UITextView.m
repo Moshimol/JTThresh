@@ -25,14 +25,6 @@
     };
 }
 
-- (UIThresh * _Nonnull (^)(UIFont * _Nonnull))font {
-    return ^UIThresh *(NSString *text) {
-        UITextView *textView = (UITextView *)self.thresh_id;
-        textView.text = text;
-        return self;
-    };
-}
-
 - (UIThresh * _Nonnull (^)(UIColor * _Nonnull))textColor {
     return ^UIThresh *(UIColor *textColor) {
         UITextView *textView = (UITextView *)self.thresh_id;

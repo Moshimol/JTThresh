@@ -25,7 +25,7 @@
     };
 }
 
-- (void)setAttributedText:(UIThresh * _Nonnull (^ _Nonnull)(NSAttributedString * _Nonnull))attributedText {
+- (UIThresh * _Nonnull (^)(NSAttributedString * _Nonnull))attributedText{
     return ^UIThresh *(NSAttributedString *attributedText) {
         UITextField *field = (UITextField *)self.thresh_id;
         field.attributedText = attributedText;
@@ -33,12 +33,20 @@
     };
 }
 
-- (void)setPlaceholder:(UIThresh * _Nonnull (^ _Nonnull)(NSString * _Nonnull))placeholder {
+- (UIThresh * _Nonnull (^)(NSString * _Nonnull))placeholder {
     return ^UIThresh *(NSString *placeholder) {
         UITextField *field = (UITextField *)self.thresh_id;
         field.placeholder = placeholder;
         return self;
-    }
+    };
+}
+
+- (UIThresh * _Nonnull (^)(NSAttributedString * _Nonnull))attributedPlaceholder {
+    return ^UIThresh *(NSAttributedString *attributedPlaceholder) {
+        UITextField *field = (UITextField *)self.thresh_id;
+        field.attributedPlaceholder = attributedPlaceholder;
+        return self;
+    };
 }
 
 - (UIThresh * _Nonnull (^)(id<UITextFieldDelegate> _Nonnull))delegate {
