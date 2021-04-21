@@ -7,46 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D2CC2D550630AD889108E933D9FEB64 /* UIThresh+UITextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 16AF22D2F2DAB5954E16D1F00A94B067 /* UIThresh+UITextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		11879F239E06D94A546BA2415E86F2D9 /* UIThresh+UITextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FCDFFE795A7FFACBFC78537416CC636 /* UIThresh+UITextField.m */; };
-		1500BE9C10511FC23B5F6ECE4A0D2C18 /* UIThresh+UIImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = F647892DBA6E8EC904500588E28D8A18 /* UIThresh+UIImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		22C371CB3CC4E2CFC1C8E4102A75C254 /* UIThresh+UIButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 6996F8AC0B73A5BCF2AE74E392FD17A4 /* UIThresh+UIButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		24B3156FE2EFC381F08BCB0A832C2035 /* UIThresh+UILabel.m in Sources */ = {isa = PBXBuildFile; fileRef = CF691C79444D2C02827844614AEC0574 /* UIThresh+UILabel.m */; };
-		281487781A79D001A7E1B17FA7D34C4D /* UIThresh+UIImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 389C469C10C9CD9783C8FF80570AE350 /* UIThresh+UIImageView.m */; };
-		29D4A1CECBC0F49434A30AEF0EF65DA0 /* UIView+Thresh.m in Sources */ = {isa = PBXBuildFile; fileRef = A1AF1EBCEDE442192A57A5C79C134104 /* UIView+Thresh.m */; };
-		2B9E613614E10AEA2498B0BCB0690174 /* UIThresh+UITextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79174FF372A7892BE15D5EE1BC2E98E1 /* UIThresh+UITextView.m */; };
+		05B7455FDE807C2DF0886AF2F0E4D305 /* UIThresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 4667AF449A63818A918CAF01DD277DCA /* UIThresh.m */; };
+		0DAE29292D14E6BDA3C6187FE1A40319 /* UIThresh+UIButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 433F8F2382FC72441636577C8BA1762C /* UIThresh+UIButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17BC1D06A66D80C3366904FC126733F8 /* JTThresh-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C810A219FEF17341EB6E9870DDF96C4E /* JTThresh-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26D3C94AD64BCF3BD0D44B50EEA493FC /* UIThresh+UITableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F27AEFD98B65F6F1E1E5A60B1C72A9A /* UIThresh+UITableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2E94C65323E15750419860262BB16586 /* Pods-JTThresh_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DD09B88EC6A2F0C7185A5BFAEEF56A3 /* Pods-JTThresh_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B70AEF2416FF11345EC6024BD981DEE /* UIThresh+UITextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 106BE5C0756268B78139FC8492115A58 /* UIThresh+UITextView.m */; };
 		3B898936C8E4B633061D566465C0C61D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		4141EB87450ACA17CBD05A9A825A89E2 /* UIThresh+UIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF498E4B29C4FE07783FEDC4AEBF568 /* UIThresh+UIButton.m */; };
-		4182FA3BCE2FA1AC995C7A6C1E0AFFEE /* UIThresh+UITextView.h in Headers */ = {isa = PBXBuildFile; fileRef = B79BB84D86E895E4A8D544454FDE60A9 /* UIThresh+UITextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		428696398247D54C47A29A26C8E79D7D /* UIThresh.h in Headers */ = {isa = PBXBuildFile; fileRef = F34C728F80C0E782C289F61277540375 /* UIThresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46358862313A7FDCA8AA3DCB72A34C93 /* UIThresh+UITableView.h in Headers */ = {isa = PBXBuildFile; fileRef = F1EE167FA86931A9A1BE6B0F9CBA4742 /* UIThresh+UITableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D932E21C7D34985A0235F72BD641B5A /* UIThreshMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 8219E299290234A420AE977841A9888E /* UIThreshMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		495D2EB3069501604FAF5B80E4B3F21B /* Pods-JTThresh_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E05DC24335B6CF95F33E89A40AE579C9 /* Pods-JTThresh_Example-dummy.m */; };
+		52AD0BC4474D615EEC4FB9EC2800C53C /* UIThresh+UITextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 76069BC32C7E193C29BBC258C636E007 /* UIThresh+UITextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		588D38ABD0FCA33A2DCDCA9F82CEC221 /* UIThresh+UIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E8FD16F1A526542C9DAF5CEBE459ED94 /* UIThresh+UIButton.m */; };
+		5A002943607A3FC6D14AD4E66E8E90B8 /* UIThresh+UICollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA36D821F132FFE4618300256FB52C48 /* UIThresh+UICollectionView.m */; };
+		5B305BABA35CADBC9FBA9953EFD41DBF /* JTThresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 389D0345EDDE67D5345A657A8A17A344 /* JTThresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5CE5AD669B7ED1CD4CDDF416D312F8B0 /* Pods-JTThresh_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0319E9F4809B765574655985E5ED204D /* Pods-JTThresh_Tests-dummy.m */; };
-		6CC43A5E980CB6027206972419981377 /* UIThresh+UITableView.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFD570A44F3B36BD03AACA9E032AEB6 /* UIThresh+UITableView.m */; };
-		6EFBAA1A91CC41130E7AB58851C804D1 /* JTThresh-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 048E2CBBD6FA05A2AC9EEA00CE20F42B /* JTThresh-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5ED6BC45B97E7D264BD0DE453BE5AF99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		63135D580E472181D591366B2A77F3BB /* UIThresh+UICollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FA702FA7816362CF1E4B1CAB29D625B /* UIThresh+UICollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		79D984441497C426EFB9BC9983453FCA /* Pods-JTThresh_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 969A91452755FE2EB5B0F2BDEA0D7F76 /* Pods-JTThresh_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8BE85339A46B2EADD7B91905414BFC92 /* UIThreshMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = DFB4E8DB3CAD135CEAC4EC33A2C40B2C /* UIThreshMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B0302784DFA97F4745061713F00265B9 /* JTThresh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E977C022181FA21A97022B100BA83B9A /* JTThresh-dummy.m */; };
-		BEFADB35C8B59FC45EC176C022275382 /* JTThresh.h in Headers */ = {isa = PBXBuildFile; fileRef = A7F01FC311A7840EC4BD79F4B0CE8EF2 /* JTThresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CCA3221EE8D4DAB74BE06D86BB0424F8 /* UIThresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 334924C8B92EFBBC265920201EB73C38 /* UIThresh.m */; };
-		CDD58AF00BDBAE568FCB9D7F1D4E804D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		D06B497FFAD7ED3FE5FAC427985FDA75 /* UIView+Thresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EE9E51840D91353007D9E544CA4883A /* UIView+Thresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D4EC6738B3AB77892A8555334A0A5A35 /* UIThresh+UICollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E12DD714A3C6858053DA1C8266A316 /* UIThresh+UICollectionView.m */; };
-		D8B5B3AEC004AD212C1922ABB71B2E9E /* UIThresh+UICollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = BE189B8ECBA75403A192E72C0F6FC4CA /* UIThresh+UICollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F3C8CA41D1ACE92B36C2F257625A8BB8 /* UIThresh+UILabel.h in Headers */ = {isa = PBXBuildFile; fileRef = EF1EA52191BB4AD319BFDDE36B30F525 /* UIThresh+UILabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DD918F89BAF0328F3A5B2A4E0D2B5BE /* UIThresh+UIImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1DC8858C178864A9599DDBC12CBDA /* UIThresh+UIImageView.m */; };
+		A6F21DEE8FF87A59E275A49059196B35 /* UIThresh+UILabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B7E75E718D31138FB586079567BBA00 /* UIThresh+UILabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A705B7FE73CC3FF6DD2587F49623ECE6 /* UIView+Thresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 913F2928D13399807D49104E7B4B6530 /* UIView+Thresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAB2E85615C7150CD4BB38939ABEDEDB /* UIView+Thresh.m in Sources */ = {isa = PBXBuildFile; fileRef = F68F7461A941C7D1E8D7994E5FCEB176 /* UIView+Thresh.m */; };
+		AB1733EF763A85C16E3A3CEDF2E9DC8C /* JTThresh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D59FEC2BD171A57A3541623919BD7037 /* JTThresh-dummy.m */; };
+		BCCAF3EA4CC5BD5AF5F003474741F7A6 /* UIThresh+UITableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D90565D79C1EE5313280BBEA1DF448 /* UIThresh+UITableView.m */; };
+		C28F34D5CB2FBAA413D86B79FDB12A54 /* UIThresh+UIScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A04C71F4CCD9E50F739715CFABB20B /* UIThresh+UIScrollView.m */; };
+		CC6476B1EAA4D85E0E36A8B11D078A6A /* UIThresh.h in Headers */ = {isa = PBXBuildFile; fileRef = F32F8EC1DD50148C5934FA0C1A57EC42 /* UIThresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE59C96721EA5C95A0E7FB82A6F03F13 /* UIThresh+UIScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AB05966A26073BC46252718E1635215 /* UIThresh+UIScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA4CF79F65C04CF3BCB2C399E83505EE /* UIThresh+UITextField.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A3AF10F9F41DF98C91F4F7102A55FD /* UIThresh+UITextField.m */; };
+		DED5F10CF0536FC73E5AF2808F732A6C /* UIThresh+UIImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EACCC636D597BEA41DCBB5993E3F489 /* UIThresh+UIImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB596A2A9A6B7597170C83FF6F5396E9 /* UIThresh+UITextView.h in Headers */ = {isa = PBXBuildFile; fileRef = CA0C253C06A5D67E97B32B30208F2E97 /* UIThresh+UITextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F4E0582E95703720012476185B008A38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FE3D70923D50045122477689F77C55B8 /* UIThresh+UILabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E04B2DDC1214D232C8FBE2727E0C63 /* UIThresh+UILabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		457F10EE086D2BFC72613E7A88DD26B9 /* PBXContainerItemProxy */ = {
+		032BA093E9318C7BE626ED488FCD1AFC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = CC442CE31499CD019CA3397C49B699D6;
 			remoteInfo = JTThresh;
 		};
-		A9EFB89CFFFD3ACE96F462565DFB4BFC /* PBXContainerItemProxy */ = {
+		6244B878580006FB9FD8661FFCEB4EEF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -57,69 +59,63 @@
 
 /* Begin PBXFileReference section */
 		0319E9F4809B765574655985E5ED204D /* Pods-JTThresh_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JTThresh_Tests-dummy.m"; sourceTree = "<group>"; };
-		048E2CBBD6FA05A2AC9EEA00CE20F42B /* JTThresh-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JTThresh-umbrella.h"; sourceTree = "<group>"; };
 		0D4C77806F0ADE5B4F16A32D32F8EEEE /* Pods-JTThresh_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JTThresh_Tests.modulemap"; sourceTree = "<group>"; };
-		16AF22D2F2DAB5954E16D1F00A94B067 /* UIThresh+UITextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIThresh+UITextField.h"; sourceTree = "<group>"; };
+		106BE5C0756268B78139FC8492115A58 /* UIThresh+UITextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIThresh+UITextView.m"; sourceTree = "<group>"; };
 		180664D6A7F4DEFFF187A0390E8D8684 /* Pods-JTThresh_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JTThresh_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		19B3A2F1633C281EFBD8A9BBDF9A97E3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1AB05966A26073BC46252718E1635215 /* UIThresh+UIScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIThresh+UIScrollView.h"; sourceTree = "<group>"; };
+		1AC63AA5F32A363BF5ABA41E140DACBF /* JTThresh.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JTThresh.modulemap; sourceTree = "<group>"; };
+		1B7E75E718D31138FB586079567BBA00 /* UIThresh+UILabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIThresh+UILabel.h"; sourceTree = "<group>"; };
 		1EE5500375009A29CCFF8A3E09836E65 /* Pods-JTThresh_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JTThresh_Tests-Info.plist"; sourceTree = "<group>"; };
-		1FCDFFE795A7FFACBFC78537416CC636 /* UIThresh+UITextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIThresh+UITextField.m"; sourceTree = "<group>"; };
-		26E12DD714A3C6858053DA1C8266A316 /* UIThresh+UICollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIThresh+UICollectionView.m"; sourceTree = "<group>"; };
+		1FEAEC3C51CA6C0DA410DF02D2C14624 /* JTThresh-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JTThresh-prefix.pch"; sourceTree = "<group>"; };
 		2962FB25F27B74CAC138279929160EC8 /* Pods-JTThresh_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JTThresh_Example.release.xcconfig"; sourceTree = "<group>"; };
-		334924C8B92EFBBC265920201EB73C38 /* UIThresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UIThresh.m; sourceTree = "<group>"; };
-		389C469C10C9CD9783C8FF80570AE350 /* UIThresh+UIImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIThresh+UIImageView.m"; sourceTree = "<group>"; };
-		42A8C11BC1A43DDD645951DF00916357 /* JTThresh-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JTThresh-prefix.pch"; sourceTree = "<group>"; };
+		2EACCC636D597BEA41DCBB5993E3F489 /* UIThresh+UIImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIThresh+UIImageView.h"; sourceTree = "<group>"; };
+		37A04C71F4CCD9E50F739715CFABB20B /* UIThresh+UIScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIThresh+UIScrollView.m"; sourceTree = "<group>"; };
+		389D0345EDDE67D5345A657A8A17A344 /* JTThresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTThresh.h; path = JTThresh/Classes/JTThresh.h; sourceTree = "<group>"; };
+		3FA702FA7816362CF1E4B1CAB29D625B /* UIThresh+UICollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIThresh+UICollectionView.h"; sourceTree = "<group>"; };
+		433F8F2382FC72441636577C8BA1762C /* UIThresh+UIButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIThresh+UIButton.h"; sourceTree = "<group>"; };
 		44358D558ED5AC973034E95880CD5E4E /* Pods_JTThresh_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JTThresh_Example.framework; path = "Pods-JTThresh_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4667AF449A63818A918CAF01DD277DCA /* UIThresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UIThresh.m; sourceTree = "<group>"; };
+		5F27AEFD98B65F6F1E1E5A60B1C72A9A /* UIThresh+UITableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIThresh+UITableView.h"; sourceTree = "<group>"; };
+		612CB9E0A078ADE99AA7BE52A3C295EB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		632129D75B259AE07AA796EF50BE48EE /* Pods-JTThresh_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JTThresh_Example-Info.plist"; sourceTree = "<group>"; };
-		6504EC9BED603ABB828D5E53E505E37B /* JTThresh.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JTThresh.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		65101D2F306A73C98523DF2E0452013A /* Pods-JTThresh_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JTThresh_Example-frameworks.sh"; sourceTree = "<group>"; };
-		6996F8AC0B73A5BCF2AE74E392FD17A4 /* UIThresh+UIButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIThresh+UIButton.h"; sourceTree = "<group>"; };
+		69D90565D79C1EE5313280BBEA1DF448 /* UIThresh+UITableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIThresh+UITableView.m"; sourceTree = "<group>"; };
 		6A0E7D542C6C3F8B2BD07F3F03491398 /* Pods-JTThresh_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JTThresh_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		6BCD7CAB0F52BD8539B6C9D2D8117513 /* Pods-JTThresh_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JTThresh_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6C53EFA2924E337A5DC5BC933BBA8828 /* JTThresh.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JTThresh.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		71ACF3214EC71038FDFB8EAF221F190B /* JTThresh.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JTThresh.release.xcconfig; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		78B712787E0B51E87DD5B8F7E4FA2A89 /* JTThresh-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JTThresh-Info.plist"; sourceTree = "<group>"; };
-		79174FF372A7892BE15D5EE1BC2E98E1 /* UIThresh+UITextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIThresh+UITextView.m"; sourceTree = "<group>"; };
-		797DC65429B53160D73753CAE61BC0CF /* JTThresh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JTThresh.debug.xcconfig; sourceTree = "<group>"; };
+		76069BC32C7E193C29BBC258C636E007 /* UIThresh+UITextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIThresh+UITextField.h"; sourceTree = "<group>"; };
+		8219E299290234A420AE977841A9888E /* UIThreshMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UIThreshMacro.h; sourceTree = "<group>"; };
 		8929BFDF580FD854BBC4F37E7C9D8CDA /* Pods-JTThresh_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JTThresh_Example.modulemap"; sourceTree = "<group>"; };
-		8CF498E4B29C4FE07783FEDC4AEBF568 /* UIThresh+UIButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIThresh+UIButton.m"; sourceTree = "<group>"; };
+		913F2928D13399807D49104E7B4B6530 /* UIView+Thresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+Thresh.h"; sourceTree = "<group>"; };
+		92ABEEF169C8BA85CF3928D22C6EAF2C /* JTThresh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JTThresh.debug.xcconfig; sourceTree = "<group>"; };
 		94D491089BA9CC54FA2CB9A980DAE06D /* Pods-JTThresh_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JTThresh_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		969A91452755FE2EB5B0F2BDEA0D7F76 /* Pods-JTThresh_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JTThresh_Tests-umbrella.h"; sourceTree = "<group>"; };
+		97E04B2DDC1214D232C8FBE2727E0C63 /* UIThresh+UILabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIThresh+UILabel.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DD09B88EC6A2F0C7185A5BFAEEF56A3 /* Pods-JTThresh_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JTThresh_Example-umbrella.h"; sourceTree = "<group>"; };
-		9EE9E51840D91353007D9E544CA4883A /* UIView+Thresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+Thresh.h"; sourceTree = "<group>"; };
-		A1AF1EBCEDE442192A57A5C79C134104 /* UIView+Thresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+Thresh.m"; sourceTree = "<group>"; };
-		A6E952479BFAD0E8F6736C76A37A5873 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		A7F01FC311A7840EC4BD79F4B0CE8EF2 /* JTThresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTThresh.h; path = JTThresh/Classes/JTThresh.h; sourceTree = "<group>"; };
+		A8E1DC8858C178864A9599DDBC12CBDA /* UIThresh+UIImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIThresh+UIImageView.m"; sourceTree = "<group>"; };
 		A98D4E48A2B51A45DFF781D8D7183269 /* Pods-JTThresh_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JTThresh_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B0EBF3D25133226E71FE005A5EAA5F78 /* JTThresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JTThresh.framework; path = JTThresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6880E69B1050F4D27546310EE5FD6D5 /* Pods_JTThresh_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JTThresh_Tests.framework; path = "Pods-JTThresh_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B79BB84D86E895E4A8D544454FDE60A9 /* UIThresh+UITextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIThresh+UITextView.h"; sourceTree = "<group>"; };
-		BE189B8ECBA75403A192E72C0F6FC4CA /* UIThresh+UICollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIThresh+UICollectionView.h"; sourceTree = "<group>"; };
-		C3913832BDA5EA1AC3D0C0884942A02A /* UIThreshMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UIThreshMacro.h; sourceTree = "<group>"; };
-		C6733C73DD88C3E51050C6B8D1EA6F5F /* JTThresh.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JTThresh.modulemap; sourceTree = "<group>"; };
 		C6ACDCAC6953EF4F5AA3E91C7F6F0FCB /* Pods-JTThresh_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JTThresh_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CF691C79444D2C02827844614AEC0574 /* UIThresh+UILabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIThresh+UILabel.m"; sourceTree = "<group>"; };
+		C810A219FEF17341EB6E9870DDF96C4E /* JTThresh-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JTThresh-umbrella.h"; sourceTree = "<group>"; };
+		CA0C253C06A5D67E97B32B30208F2E97 /* UIThresh+UITextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIThresh+UITextView.h"; sourceTree = "<group>"; };
 		D213DA55A2AB4A76E513B6EAE12A2558 /* Pods-JTThresh_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JTThresh_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D875B711BE6597E263DD448BE3AFFCBA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		DFB4E8DB3CAD135CEAC4EC33A2C40B2C /* UIThreshMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UIThreshMacro.h; sourceTree = "<group>"; };
+		D385D56436F54B39DAAB9449B3435C92 /* JTThresh-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JTThresh-Info.plist"; sourceTree = "<group>"; };
+		D59FEC2BD171A57A3541623919BD7037 /* JTThresh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JTThresh-dummy.m"; sourceTree = "<group>"; };
+		D9A3AF10F9F41DF98C91F4F7102A55FD /* UIThresh+UITextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIThresh+UITextField.m"; sourceTree = "<group>"; };
 		E05DC24335B6CF95F33E89A40AE579C9 /* Pods-JTThresh_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JTThresh_Example-dummy.m"; sourceTree = "<group>"; };
-		E977C022181FA21A97022B100BA83B9A /* JTThresh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JTThresh-dummy.m"; sourceTree = "<group>"; };
-		EF1EA52191BB4AD319BFDDE36B30F525 /* UIThresh+UILabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIThresh+UILabel.h"; sourceTree = "<group>"; };
-		F1EE167FA86931A9A1BE6B0F9CBA4742 /* UIThresh+UITableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIThresh+UITableView.h"; sourceTree = "<group>"; };
-		F34C728F80C0E782C289F61277540375 /* UIThresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UIThresh.h; sourceTree = "<group>"; };
-		F647892DBA6E8EC904500588E28D8A18 /* UIThresh+UIImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIThresh+UIImageView.h"; sourceTree = "<group>"; };
-		FBFD570A44F3B36BD03AACA9E032AEB6 /* UIThresh+UITableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIThresh+UITableView.m"; sourceTree = "<group>"; };
-		FCFB3E9BADA225774D0E4842BAF5FD7F /* JTThresh.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JTThresh.release.xcconfig; sourceTree = "<group>"; };
+		E8FD16F1A526542C9DAF5CEBE459ED94 /* UIThresh+UIButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIThresh+UIButton.m"; sourceTree = "<group>"; };
+		EB2245989C871E9F3FEAAAF7B8F64229 /* UIThreshMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UIThreshMacro.h; sourceTree = "<group>"; };
+		F32F8EC1DD50148C5934FA0C1A57EC42 /* UIThresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UIThresh.h; sourceTree = "<group>"; };
+		F68F7461A941C7D1E8D7994E5FCEB176 /* UIView+Thresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+Thresh.m"; sourceTree = "<group>"; };
+		FA36D821F132FFE4618300256FB52C48 /* UIThresh+UICollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIThresh+UICollectionView.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		27B130C9AEC05968F4AFBDF8C9FE844D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CDD58AF00BDBAE568FCB9D7F1D4E804D /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		858867AD8ECC1BA5EBE7A3DED767724E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -136,18 +132,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CDCAD69875DDE7A354CF2CC7B169959F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ED6BC45B97E7D264BD0DE453BE5AF99 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		12639E2FFD36B8FCB3C9AC0CF3B76011 /* UIThreshCategory */ = {
+		0F76AC0857704C559915CCF301BC88CE /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				DFB4E8DB3CAD135CEAC4EC33A2C40B2C /* UIThreshMacro.h */,
-				9EE9E51840D91353007D9E544CA4883A /* UIView+Thresh.h */,
-				A1AF1EBCEDE442192A57A5C79C134104 /* UIView+Thresh.m */,
+				6C53EFA2924E337A5DC5BC933BBA8828 /* JTThresh.podspec */,
+				19B3A2F1633C281EFBD8A9BBDF9A97E3 /* LICENSE */,
+				612CB9E0A078ADE99AA7BE52A3C295EB /* README.md */,
 			);
-			name = UIThreshCategory;
-			path = JTThresh/Classes/UIThreshCategory;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		34B68ADCEAFDFDEB3C7A799E9660ED54 /* Products */ = {
@@ -160,10 +163,37 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		42E3AC62798DD164077219AB4D9AFBF7 /* UIThresh */ = {
+			isa = PBXGroup;
+			children = (
+				F32F8EC1DD50148C5934FA0C1A57EC42 /* UIThresh.h */,
+				4667AF449A63818A918CAF01DD277DCA /* UIThresh.m */,
+				433F8F2382FC72441636577C8BA1762C /* UIThresh+UIButton.h */,
+				E8FD16F1A526542C9DAF5CEBE459ED94 /* UIThresh+UIButton.m */,
+				3FA702FA7816362CF1E4B1CAB29D625B /* UIThresh+UICollectionView.h */,
+				FA36D821F132FFE4618300256FB52C48 /* UIThresh+UICollectionView.m */,
+				2EACCC636D597BEA41DCBB5993E3F489 /* UIThresh+UIImageView.h */,
+				A8E1DC8858C178864A9599DDBC12CBDA /* UIThresh+UIImageView.m */,
+				1B7E75E718D31138FB586079567BBA00 /* UIThresh+UILabel.h */,
+				97E04B2DDC1214D232C8FBE2727E0C63 /* UIThresh+UILabel.m */,
+				1AB05966A26073BC46252718E1635215 /* UIThresh+UIScrollView.h */,
+				37A04C71F4CCD9E50F739715CFABB20B /* UIThresh+UIScrollView.m */,
+				5F27AEFD98B65F6F1E1E5A60B1C72A9A /* UIThresh+UITableView.h */,
+				69D90565D79C1EE5313280BBEA1DF448 /* UIThresh+UITableView.m */,
+				76069BC32C7E193C29BBC258C636E007 /* UIThresh+UITextField.h */,
+				D9A3AF10F9F41DF98C91F4F7102A55FD /* UIThresh+UITextField.m */,
+				CA0C253C06A5D67E97B32B30208F2E97 /* UIThresh+UITextView.h */,
+				106BE5C0756268B78139FC8492115A58 /* UIThresh+UITextView.m */,
+				EB2245989C871E9F3FEAAAF7B8F64229 /* UIThreshMacro.h */,
+			);
+			name = UIThresh;
+			path = JTThresh/Classes/UIThresh;
+			sourceTree = "<group>";
+		};
 		45B51BDB1B273B8DB4BDBE69542A5F86 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				832B1B6EF373E037B042B0AE01D2BD62 /* JTThresh */,
+				7334F9A5A4D9B353A0519126124A5CE2 /* JTThresh */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -209,14 +239,17 @@
 			path = "Target Support Files/Pods-JTThresh_Tests";
 			sourceTree = "<group>";
 		};
-		78B8AF0450D6D9C994613E927037FDD4 /* Pod */ = {
+		7334F9A5A4D9B353A0519126124A5CE2 /* JTThresh */ = {
 			isa = PBXGroup;
 			children = (
-				6504EC9BED603ABB828D5E53E505E37B /* JTThresh.podspec */,
-				A6E952479BFAD0E8F6736C76A37A5873 /* LICENSE */,
-				D875B711BE6597E263DD448BE3AFFCBA /* README.md */,
+				389D0345EDDE67D5345A657A8A17A344 /* JTThresh.h */,
+				0F76AC0857704C559915CCF301BC88CE /* Pod */,
+				A16037CE93D9C1837B1521B171F5206D /* Support Files */,
+				42E3AC62798DD164077219AB4D9AFBF7 /* UIThresh */,
+				BF1DC85EC6A7CD19A9D6CA25BEE64A55 /* UIThreshCategory */,
 			);
-			name = Pod;
+			name = JTThresh;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		808C2935AFED779B3AAE88BBCB82B3F4 /* Targets Support Files */ = {
@@ -228,57 +261,30 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		832B1B6EF373E037B042B0AE01D2BD62 /* JTThresh */ = {
+		A16037CE93D9C1837B1521B171F5206D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A7F01FC311A7840EC4BD79F4B0CE8EF2 /* JTThresh.h */,
-				78B8AF0450D6D9C994613E927037FDD4 /* Pod */,
-				940E255EC79309B5093B7664D764AED9 /* Support Files */,
-				B56CDED67D3A483AB8013698CD9C4D71 /* UIThresh */,
-				12639E2FFD36B8FCB3C9AC0CF3B76011 /* UIThreshCategory */,
-			);
-			name = JTThresh;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		940E255EC79309B5093B7664D764AED9 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C6733C73DD88C3E51050C6B8D1EA6F5F /* JTThresh.modulemap */,
-				E977C022181FA21A97022B100BA83B9A /* JTThresh-dummy.m */,
-				78B712787E0B51E87DD5B8F7E4FA2A89 /* JTThresh-Info.plist */,
-				42A8C11BC1A43DDD645951DF00916357 /* JTThresh-prefix.pch */,
-				048E2CBBD6FA05A2AC9EEA00CE20F42B /* JTThresh-umbrella.h */,
-				797DC65429B53160D73753CAE61BC0CF /* JTThresh.debug.xcconfig */,
-				FCFB3E9BADA225774D0E4842BAF5FD7F /* JTThresh.release.xcconfig */,
+				1AC63AA5F32A363BF5ABA41E140DACBF /* JTThresh.modulemap */,
+				D59FEC2BD171A57A3541623919BD7037 /* JTThresh-dummy.m */,
+				D385D56436F54B39DAAB9449B3435C92 /* JTThresh-Info.plist */,
+				1FEAEC3C51CA6C0DA410DF02D2C14624 /* JTThresh-prefix.pch */,
+				C810A219FEF17341EB6E9870DDF96C4E /* JTThresh-umbrella.h */,
+				92ABEEF169C8BA85CF3928D22C6EAF2C /* JTThresh.debug.xcconfig */,
+				71ACF3214EC71038FDFB8EAF221F190B /* JTThresh.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/JTThresh";
 			sourceTree = "<group>";
 		};
-		B56CDED67D3A483AB8013698CD9C4D71 /* UIThresh */ = {
+		BF1DC85EC6A7CD19A9D6CA25BEE64A55 /* UIThreshCategory */ = {
 			isa = PBXGroup;
 			children = (
-				F34C728F80C0E782C289F61277540375 /* UIThresh.h */,
-				334924C8B92EFBBC265920201EB73C38 /* UIThresh.m */,
-				6996F8AC0B73A5BCF2AE74E392FD17A4 /* UIThresh+UIButton.h */,
-				8CF498E4B29C4FE07783FEDC4AEBF568 /* UIThresh+UIButton.m */,
-				BE189B8ECBA75403A192E72C0F6FC4CA /* UIThresh+UICollectionView.h */,
-				26E12DD714A3C6858053DA1C8266A316 /* UIThresh+UICollectionView.m */,
-				F647892DBA6E8EC904500588E28D8A18 /* UIThresh+UIImageView.h */,
-				389C469C10C9CD9783C8FF80570AE350 /* UIThresh+UIImageView.m */,
-				EF1EA52191BB4AD319BFDDE36B30F525 /* UIThresh+UILabel.h */,
-				CF691C79444D2C02827844614AEC0574 /* UIThresh+UILabel.m */,
-				F1EE167FA86931A9A1BE6B0F9CBA4742 /* UIThresh+UITableView.h */,
-				FBFD570A44F3B36BD03AACA9E032AEB6 /* UIThresh+UITableView.m */,
-				16AF22D2F2DAB5954E16D1F00A94B067 /* UIThresh+UITextField.h */,
-				1FCDFFE795A7FFACBFC78537416CC636 /* UIThresh+UITextField.m */,
-				B79BB84D86E895E4A8D544454FDE60A9 /* UIThresh+UITextView.h */,
-				79174FF372A7892BE15D5EE1BC2E98E1 /* UIThresh+UITextView.m */,
-				C3913832BDA5EA1AC3D0C0884942A02A /* UIThreshMacro.h */,
+				8219E299290234A420AE977841A9888E /* UIThreshMacro.h */,
+				913F2928D13399807D49104E7B4B6530 /* UIView+Thresh.h */,
+				F68F7461A941C7D1E8D7994E5FCEB176 /* UIView+Thresh.m */,
 			);
-			name = UIThresh;
-			path = JTThresh/Classes/UIThresh;
+			name = UIThreshCategory;
+			path = JTThresh/Classes/UIThreshCategory;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -303,6 +309,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		1C2CB7058E21BFCDD4C2175C62CDB063 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17BC1D06A66D80C3366904FC126733F8 /* JTThresh-umbrella.h in Headers */,
+				5B305BABA35CADBC9FBA9953EFD41DBF /* JTThresh.h in Headers */,
+				0DAE29292D14E6BDA3C6187FE1A40319 /* UIThresh+UIButton.h in Headers */,
+				63135D580E472181D591366B2A77F3BB /* UIThresh+UICollectionView.h in Headers */,
+				DED5F10CF0536FC73E5AF2808F732A6C /* UIThresh+UIImageView.h in Headers */,
+				A6F21DEE8FF87A59E275A49059196B35 /* UIThresh+UILabel.h in Headers */,
+				CE59C96721EA5C95A0E7FB82A6F03F13 /* UIThresh+UIScrollView.h in Headers */,
+				26D3C94AD64BCF3BD0D44B50EEA493FC /* UIThresh+UITableView.h in Headers */,
+				52AD0BC4474D615EEC4FB9EC2800C53C /* UIThresh+UITextField.h in Headers */,
+				EB596A2A9A6B7597170C83FF6F5396E9 /* UIThresh+UITextView.h in Headers */,
+				CC6476B1EAA4D85E0E36A8B11D078A6A /* UIThresh.h in Headers */,
+				3D932E21C7D34985A0235F72BD641B5A /* UIThreshMacro.h in Headers */,
+				3D932E21C7D34985A0235F72BD641B5A /* UIThreshMacro.h in Headers */,
+				A705B7FE73CC3FF6DD2587F49623ECE6 /* UIView+Thresh.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		46DB1E551C0234CBFFAFC5F57DE27E17 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -316,26 +343,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				79D984441497C426EFB9BC9983453FCA /* Pods-JTThresh_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BD9E75331C1C26EA3B259A07558D22AF /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6EFBAA1A91CC41130E7AB58851C804D1 /* JTThresh-umbrella.h in Headers */,
-				BEFADB35C8B59FC45EC176C022275382 /* JTThresh.h in Headers */,
-				22C371CB3CC4E2CFC1C8E4102A75C254 /* UIThresh+UIButton.h in Headers */,
-				D8B5B3AEC004AD212C1922ABB71B2E9E /* UIThresh+UICollectionView.h in Headers */,
-				1500BE9C10511FC23B5F6ECE4A0D2C18 /* UIThresh+UIImageView.h in Headers */,
-				F3C8CA41D1ACE92B36C2F257625A8BB8 /* UIThresh+UILabel.h in Headers */,
-				46358862313A7FDCA8AA3DCB72A34C93 /* UIThresh+UITableView.h in Headers */,
-				0D2CC2D550630AD889108E933D9FEB64 /* UIThresh+UITextField.h in Headers */,
-				4182FA3BCE2FA1AC995C7A6C1E0AFFEE /* UIThresh+UITextView.h in Headers */,
-				428696398247D54C47A29A26C8E79D7D /* UIThresh.h in Headers */,
-				8BE85339A46B2EADD7B91905414BFC92 /* UIThreshMacro.h in Headers */,
-				8BE85339A46B2EADD7B91905414BFC92 /* UIThreshMacro.h in Headers */,
-				D06B497FFAD7ED3FE5FAC427985FDA75 /* UIView+Thresh.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,7 +361,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				D78A07B5EDDD95E77F845B955ADD3CD0 /* PBXTargetDependency */,
+				0EB480B16955CDE578908994816DC00A /* PBXTargetDependency */,
 			);
 			name = "Pods-JTThresh_Tests";
 			productName = "Pods-JTThresh_Tests";
@@ -363,12 +370,12 @@
 		};
 		CC442CE31499CD019CA3397C49B699D6 /* JTThresh */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B8899E4AAF9B8A5C97A8D9AC5A659956 /* Build configuration list for PBXNativeTarget "JTThresh" */;
+			buildConfigurationList = E4E245348B27C8F71CA714C8BAF3D08C /* Build configuration list for PBXNativeTarget "JTThresh" */;
 			buildPhases = (
-				BD9E75331C1C26EA3B259A07558D22AF /* Headers */,
-				962343745B5E6358722C5F2FA42F2311 /* Sources */,
-				27B130C9AEC05968F4AFBDF8C9FE844D /* Frameworks */,
-				0C64205EC9BEBCBEB04BA6D594EA2CEC /* Resources */,
+				1C2CB7058E21BFCDD4C2175C62CDB063 /* Headers */,
+				58C6BD45F5F3F99F1CF1B2D5BF287BC1 /* Sources */,
+				CDCAD69875DDE7A354CF2CC7B169959F /* Frameworks */,
+				92B9A0EDFD485B0167D4F8EBB022304A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -391,7 +398,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				CB79DED54CFB03CD578A63D60FC4A7DA /* PBXTargetDependency */,
+				14F93CD3FBD9741A079B8196C03A7A6F /* PBXTargetDependency */,
 			);
 			name = "Pods-JTThresh_Example";
 			productName = "Pods-JTThresh_Example";
@@ -435,7 +442,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0C64205EC9BEBCBEB04BA6D594EA2CEC /* Resources */ = {
+		92B9A0EDFD485B0167D4F8EBB022304A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -460,20 +467,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		962343745B5E6358722C5F2FA42F2311 /* Sources */ = {
+		58C6BD45F5F3F99F1CF1B2D5BF287BC1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0302784DFA97F4745061713F00265B9 /* JTThresh-dummy.m in Sources */,
-				4141EB87450ACA17CBD05A9A825A89E2 /* UIThresh+UIButton.m in Sources */,
-				D4EC6738B3AB77892A8555334A0A5A35 /* UIThresh+UICollectionView.m in Sources */,
-				281487781A79D001A7E1B17FA7D34C4D /* UIThresh+UIImageView.m in Sources */,
-				24B3156FE2EFC381F08BCB0A832C2035 /* UIThresh+UILabel.m in Sources */,
-				6CC43A5E980CB6027206972419981377 /* UIThresh+UITableView.m in Sources */,
-				11879F239E06D94A546BA2415E86F2D9 /* UIThresh+UITextField.m in Sources */,
-				2B9E613614E10AEA2498B0BCB0690174 /* UIThresh+UITextView.m in Sources */,
-				CCA3221EE8D4DAB74BE06D86BB0424F8 /* UIThresh.m in Sources */,
-				29D4A1CECBC0F49434A30AEF0EF65DA0 /* UIView+Thresh.m in Sources */,
+				AB1733EF763A85C16E3A3CEDF2E9DC8C /* JTThresh-dummy.m in Sources */,
+				588D38ABD0FCA33A2DCDCA9F82CEC221 /* UIThresh+UIButton.m in Sources */,
+				5A002943607A3FC6D14AD4E66E8E90B8 /* UIThresh+UICollectionView.m in Sources */,
+				9DD918F89BAF0328F3A5B2A4E0D2B5BE /* UIThresh+UIImageView.m in Sources */,
+				FE3D70923D50045122477689F77C55B8 /* UIThresh+UILabel.m in Sources */,
+				C28F34D5CB2FBAA413D86B79FDB12A54 /* UIThresh+UIScrollView.m in Sources */,
+				BCCAF3EA4CC5BD5AF5F003474741F7A6 /* UIThresh+UITableView.m in Sources */,
+				DA4CF79F65C04CF3BCB2C399E83505EE /* UIThresh+UITextField.m in Sources */,
+				3B70AEF2416FF11345EC6024BD981DEE /* UIThresh+UITextView.m in Sources */,
+				05B7455FDE807C2DF0886AF2F0E4D305 /* UIThresh.m in Sources */,
+				AAB2E85615C7150CD4BB38939ABEDEDB /* UIView+Thresh.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,17 +496,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CB79DED54CFB03CD578A63D60FC4A7DA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = JTThresh;
-			target = CC442CE31499CD019CA3397C49B699D6 /* JTThresh */;
-			targetProxy = 457F10EE086D2BFC72613E7A88DD26B9 /* PBXContainerItemProxy */;
-		};
-		D78A07B5EDDD95E77F845B955ADD3CD0 /* PBXTargetDependency */ = {
+		0EB480B16955CDE578908994816DC00A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-JTThresh_Example";
 			target = D32AB63AD0C4A69AC6B25EDAC60656C3 /* Pods-JTThresh_Example */;
-			targetProxy = A9EFB89CFFFD3ACE96F462565DFB4BFC /* PBXContainerItemProxy */;
+			targetProxy = 6244B878580006FB9FD8661FFCEB4EEF /* PBXContainerItemProxy */;
+		};
+		14F93CD3FBD9741A079B8196C03A7A6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JTThresh;
+			target = CC442CE31499CD019CA3397C49B699D6 /* JTThresh */;
+			targetProxy = 032BA093E9318C7BE626ED488FCD1AFC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -666,9 +674,39 @@
 			};
 			name = Debug;
 		};
-		7F83B9CC471B30F46BCE139D2994DFFA /* Release */ = {
+		6DE9B504D9C8F35733EAB8C117360419 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FCFB3E9BADA225774D0E4842BAF5FD7F /* JTThresh.release.xcconfig */;
+			baseConfigurationReference = 92ABEEF169C8BA85CF3928D22C6EAF2C /* JTThresh.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JTThresh/JTThresh-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JTThresh/JTThresh-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JTThresh/JTThresh.modulemap";
+				PRODUCT_MODULE_NAME = JTThresh;
+				PRODUCT_NAME = JTThresh;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C1DA3D37835FDA129F0D7C2367A1A283 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71ACF3214EC71038FDFB8EAF221F190B /* JTThresh.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -696,36 +734,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		BA767B94F79A5C0A3EFCBB0C40FC595F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 797DC65429B53160D73753CAE61BC0CF /* JTThresh.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JTThresh/JTThresh-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JTThresh/JTThresh-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JTThresh/JTThresh.modulemap";
-				PRODUCT_MODULE_NAME = JTThresh;
-				PRODUCT_NAME = JTThresh;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -852,11 +860,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B8899E4AAF9B8A5C97A8D9AC5A659956 /* Build configuration list for PBXNativeTarget "JTThresh" */ = {
+		E4E245348B27C8F71CA714C8BAF3D08C /* Build configuration list for PBXNativeTarget "JTThresh" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BA767B94F79A5C0A3EFCBB0C40FC595F /* Debug */,
-				7F83B9CC471B30F46BCE139D2994DFFA /* Release */,
+				6DE9B504D9C8F35733EAB8C117360419 /* Debug */,
+				C1DA3D37835FDA129F0D7C2367A1A283 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
