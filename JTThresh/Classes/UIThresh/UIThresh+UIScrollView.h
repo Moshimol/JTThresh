@@ -21,9 +21,6 @@ NS_ASSUME_NONNULL_BEGIN
 // contentSize
 @property (nonatomic, copy, readonly) UIThresh *(^contentOffset)(CGPoint point_size, BOOL animated);
 
-// adjustedContentInset
-@property (nonatomic, copy, readonly) UIThresh *(^adjustedContentInset)(BOOL adjustedContentInset);
-
 @end
 
 NS_ASSUME_NONNULL_END
