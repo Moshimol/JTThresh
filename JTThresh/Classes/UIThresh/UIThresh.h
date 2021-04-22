@@ -19,6 +19,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (instancetype)makeThreshGenerator:(NSString *)sourece;
 
+// 根据映射去对应iOS的空间
++ (NSString *)mapping_iOSKit:(NSString *)iOSKit;
+
 @property (nonatomic, strong) UIThresh *thresh_id;
 
 // 视图相关的属性
@@ -34,10 +37,10 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy, readonly) UIThresh *(^backGroundColor)(UIColor *backGroudColor);
 
 // 设置弧度 四个弧度
-@property (nonatomic, copy, readonly) UIThresh *(^radius)(CGSize radius);
+@property (nonatomic, copy, readonly) UIThresh *(^radius)(CGFloat radius);
 
 // 单独设置弧度
-@property (nonatomic, copy, readonly) UIThresh *(^radiusCorners)(CGSize radius, UIRectCorner roundCorners);
+@property (nonatomic, copy, readonly) UIThresh *(^radiusCorners)(CGFloat radius, UIRectCorner roundCorners);
 
 // 设置tag值
 @property (nonatomic, copy, readonly) UIThresh *(^tag)(NSInteger tag);

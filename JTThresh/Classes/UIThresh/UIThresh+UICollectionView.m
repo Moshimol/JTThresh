@@ -32,7 +32,7 @@
         if (@available(iOS 10.0, *)) {
             collectView.prefetchDataSource = prefetchDataSource;
         } else {
-            // Fallback on earlier versions
+            // Fallback on earlier versions 目前暂不处理 因为目前支持只有iOS10以上
         }
         return self;
     };
@@ -92,7 +92,7 @@
         [collectionView registerNib:nib
                   forSupplementaryViewOfKind:elementKind
                          withReuseIdentifier:identifier];
-                return self;
+        return self;
     };
 }
 

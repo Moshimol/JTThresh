@@ -34,10 +34,27 @@
         thresh.thresh_id = [[UICollectionView alloc] initWithFrame:CGRectZero collectionViewLayout:layout];
     } else if ([cls isSubclassOfClass:[UITableView class]]) {
         thresh.thresh_id = [[UITableView alloc] initWithFrame:CGRectZero style:UITableViewStylePlain];
+    } else if ([cls isSubclassOfClass:[UIScrollView class]]) {
+        thresh.thresh_id = [[UIScrollView alloc] init];
     } else if ([cls isSubclassOfClass:[UIView class]]) {
         thresh.thresh_id = [[cls alloc] init];
     }
+
     return thresh;
+}
+
++ (NSString *)mapping_iOSKit:(NSString *)iOSKit {
+    // text 对应UIlabel button 对应UIbutton
+    NSString *iOSKitString = nil;
+    if ([iOSKit isEqualToString:@"button"]) {
+        iOSKitString = @"UIButton";
+    } else if ([iOSKit isEqualToString:@"text"]) {
+        iOSKitString = @"UILabel";
+    } else if ([iOSKit isEqualToString:@"div"]) {
+        iOSKitString = @"UIView";
+    }
+    
+    return iOSKitString;
 }
 
 - (UIThresh * _Nonnull (^)(CGRect))frame {
@@ -75,11 +92,11 @@
     };
 }
 
-- (UIThresh * _Nonnull (^)(CGSize))radius {
-    return ^UIThresh *(CGSize radius) {
+- (UIThresh * _Nonnull (^)(CGFloat))radius {
+    return ^UIThresh *(CGFloat radius) {
         UIView *result = (UIView *)self.thresh_id;
         UIBezierPath *maskPath = [UIBezierPath bezierPathWithRoundedRect:result.bounds
-        byRoundingCorners:UIRectCornerTopLeft | UIRectCornerTopRight | UIRectCornerBottomLeft | UIRectCornerBottomRight cornerRadii:radius];
+        byRoundingCorners:UIRectCornerTopLeft | UIRectCornerTopRight | UIRectCornerBottomLeft | UIRectCornerBottomRight cornerRadii:CGSizeMake(radius, radius)];
         CAShapeLayer *maskLayer = [[CAShapeLayer alloc] init];
         maskLayer.frame = result.bounds;
         maskLayer.path = maskPath.CGPath;
@@ -88,11 +105,11 @@
     };
 }
 
-- (UIThresh * _Nonnull (^)(CGSize, UIRectCorner))radiusCorners {
-    return ^UIThresh *(CGSize radius, UIRectCorner roundCorners) {
+- (UIThresh * _Nonnull (^)(CGFloat, UIRectCorner))radiusCorners {
+    return ^UIThresh *(CGFloat radius, UIRectCorner roundCorners) {
         UIView *result = (UIView *)self.thresh_id;
         UIBezierPath *maskPath = [UIBezierPath bezierPathWithRoundedRect:result.bounds
-        byRoundingCorners:roundCorners cornerRadii:radius];
+        byRoundingCorners:roundCorners cornerRadii:CGSizeMake(radius, radius)];
         CAShapeLayer *maskLayer = [[CAShapeLayer alloc] init];
         maskLayer.frame = result.bounds;
         maskLayer.path = maskPath.CGPath;

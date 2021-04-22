@@ -35,6 +35,16 @@
         thresh.backGroundColor([UIColor yellowColor]);
         thresh.text(@"hello");
     }];
+    
+    [Thresh(@"UIView") mas_thresh:^(UIThresh * _Nonnull thresh) {
+        thresh.frame(CGRectMake(100.0, 370.0, 100.0, 50.0));
+        thresh.parent_view(self.view);
+        thresh.backGroundColor([UIColor greenColor]);
+        thresh.radius(10.0);
+        thresh.tapGestureRecognizer(^{
+            
+        });
+    }];
 }
 
 @end
