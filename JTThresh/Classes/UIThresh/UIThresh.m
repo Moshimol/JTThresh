@@ -6,6 +6,7 @@
 //
 
 #import "UIThresh.h"
+#import "UIThreshScale.h"
 #import <objc/runtime.h>
 
 @implementation UIThresh
@@ -60,7 +61,8 @@
 - (UIThresh * _Nonnull (^)(CGRect))frame {
     return ^UIThresh *(CGRect frame) {
         UIView *result = (UIView *)self.thresh_id;
-        result.frame = frame;
+        // 取处理frame的大小
+        result.frame = [UIThreshScale tranFrameScale:frame];
         return self;
     };
 }

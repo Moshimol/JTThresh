@@ -1,16 +1,26 @@
 PODS:
-  - JTThresh (0.1.0)
+  - JTThresh (0.1.0):
+    - SDWebImage (~> 5.11.0)
+  - SDWebImage (5.11.0):
+    - SDWebImage/Core (= 5.11.0)
+  - SDWebImage/Core (5.11.0)
 
 DEPENDENCIES:
   - JTThresh (from `../`)
+  - SDWebImage
+
+SPEC REPOS:
+  trunk:
+    - SDWebImage
 
 EXTERNAL SOURCES:
   JTThresh:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JTThresh: 3c49b5d7a212b95e8a6a594e24f38d56c4f280d4
+  JTThresh: 1061dfd6c2ee300bf8fc10299ba657a4cc12b178
+  SDWebImage: 7acbb57630ac7db4a495547fb73916ff3e432f6b
 
-PODFILE CHECKSUM: 9ffe9d4eeae4b692cd1e9e4322843171f4f83e53
+PODFILE CHECKSUM: cb8b280b2e3d34bfa2fca15e12e1d1ddcdf656eb
 
 COCOAPODS: 1.10.0

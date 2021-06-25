@@ -18,4 +18,7 @@
 #import "UIThresh+UICollectionView.h"
 #import "UIThresh+UITableView.h"
 
+// 颜色的扩展
+#import "UIColor+Util.h"
+
 #endif /* JTThresh_h */

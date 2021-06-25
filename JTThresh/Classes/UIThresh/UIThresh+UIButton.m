@@ -70,4 +70,29 @@
     };
 }
 
+- (UIThresh * _Nonnull (^)(CGFloat, CGFloat, UIColor * _Nonnull))borderInfo {
+    return ^UIThresh *(CGFloat radius,CGFloat borderWidth,UIColor *borderColor) {
+        UIButton *button = (UIButton *) self.thresh_id;
+        button.layer.borderWidth = borderWidth;
+        button.layer.borderColor = borderColor.CGColor;
+        UIBezierPath *maskPath = [UIBezierPath bezierPathWithRoundedRect:button.bounds
+        byRoundingCorners:UIRectCornerTopLeft | UIRectCornerTopRight | UIRectCornerBottomLeft | UIRectCornerBottomRight cornerRadii:CGSizeMake(radius, radius)];
+        CAShapeLayer *maskLayer = [[CAShapeLayer alloc] init];
+        maskLayer.frame = button.bounds;
+        maskLayer.path = maskPath.CGPath;
+        maskLayer.strokeColor = [UIColor greenColor].CGColor;
+        maskLayer.lineWidth = borderWidth;
+        button.layer.mask = maskLayer;
+        return self;
+    };
+}
+
+- (UIThresh * _Nonnull (^)(NSString * _Nonnull))backImageURL {
+    return ^UIThresh *(NSString *backImageURL) {
+        UIButton *button = (UIButton *) self.thresh_id;
+        [button sd_setImageWithURL:[NSURL URLWithString:backImageURL] forState:UIControlStateNormal];
+        return self;
+    };
+}
+
 @end

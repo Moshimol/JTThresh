@@ -23,6 +23,9 @@ NS_ASSUME_NONNULL_BEGIN
 // 动画相关
 @property (nonatomic, copy, readonly) UIThresh *(^animation)(NSTimeInterval animationDuration,NSInteger animationRepeatCount, NSArray<UIImage *> *animationImages);
 
+// image的地址
+@property (nonatomic, copy, readonly) UIThresh *(^imageURL)(NSString *imageURL);
+
 @end
 
 NS_ASSUME_NONNULL_END

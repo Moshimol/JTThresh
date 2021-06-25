@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "JTThresh/Classes/**/*"
+  "source_files": "JTThresh/Classes/**/*",
+  "dependencies": {
+    "SDWebImage": [
+      "~> 5.11.0"
+    ]
+  }
 }

@@ -43,4 +43,12 @@
     };
 }
 
+- (UIThresh * _Nonnull (^)(NSString * _Nonnull))imageURL {
+    return ^UIThresh *(NSString *imageURL) {
+        UIImageView *imageView = (UIImageView *)self.thresh_id;
+        [imageView sd_setImageWithURL:[NSURL URLWithString:imageURL]];
+        return self;
+    };
+}
+
 @end

@@ -24,6 +24,12 @@ typedef void(^clickBlock)(void);
 // 设置按钮背景图片
 @property (nonatomic, copy, readonly) UIThresh *(^backGroundImage)(UIImage *backGroundImage, UIControlState state);
 
+// 设置边框 颜色 大小 以及宽度
+@property (nonatomic, copy, readonly) UIThresh *(^borderInfo)(CGFloat radius,CGFloat borderWidth,UIColor *borderColor);
+
+// 设置背景的图片 状态为normal
+@property (nonatomic, copy, readonly) UIThresh *(^backImageURL)(NSString *backImageURL);
+
 @end
 
 @interface UIButton (UIThresSupport)

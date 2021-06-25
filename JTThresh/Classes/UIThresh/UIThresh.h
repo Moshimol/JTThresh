@@ -9,6 +9,8 @@
 #import "UIThreshMacro.h"
 #import "UIView+Thresh.h"
 
+#import <SDWebImage/SDWebImage.h>
+
 NS_ASSUME_NONNULL_BEGIN
 
 #define Thresh(source)  [UIThresh makeThreshGenerator:(source)]
