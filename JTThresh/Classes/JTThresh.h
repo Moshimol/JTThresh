@@ -16,6 +16,7 @@
 #import "UIThresh+UITextField.h"
 #import "UIThresh+UITextView.h"
 #import "UIThresh+UICollectionView.h"
+#import "UIThresh+UIScrollView.h"
 #import "UIThresh+UITableView.h"
 
 // 颜色的扩展
