@@ -62,7 +62,7 @@
     return ^UIThresh *(CGRect frame) {
         UIView *result = (UIView *)self.thresh_id;
         // 取处理frame的大小
-        result.frame = [UIThreshScale tranFrameScale:frame];
+        result.frame = frame;
         return self;
     };
 }
